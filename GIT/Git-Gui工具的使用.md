@@ -1,1 +1,97 @@
-Git-Gui的使用
+# Git-Gui 的使用
+
+## 汉化
+
+1. 下载汉化文件 https://files.cnblogs.com/files/chenghu/git-gui-zh-master.zip
+
+2. 找到 git 安装路径 ( 我的安装位置在 D:\Program Files\Git\mingw64\share\git-gui\lib\msgs), msgs 可能不存在, 需要手动自己创建.
+
+3. ![image-20241106012759543](Git-Gui工具的使用.assets/image-20241106012759543.png)
+
+4. 解压下载的文件, 将名为 zh_cn.msg 的文件, 放进 msgs 中文件夹中
+
+   ![image-20241106013130252](Git-Gui工具的使用.assets/image-20241106013130252.png)
+
+5. 重新打开Git GUI 如下图: 
+
+   ![image-20241106013358958](Git-Gui工具的使用.assets/image-20241106013358958.png)
+
+![image-20241106013557648](Git-Gui工具的使用.assets/image-20241106013557648.png)
+
+## 权限校验
+
+生成公钥
+
+1. 点击菜单栏 帮助 - 显示ssh密钥
+
+   ![image-20241106014147006](Git-Gui工具的使用.assets/image-20241106014147006.png)
+
+2. 然后再点击 生成密钥 然后 复制到粘贴板
+
+![image-20241106014339687](Git-Gui工具的使用.assets/image-20241106014339687.png)
+
+3. GitHud 与 Gitee 添加 SSH 密钥  ( 添加SSH公钥的页面都在设置里 ), 且保存后前都要输用户密码
+
+   -  GitHud  的教程 [通过 SSH 连接到 GitHub - GitHub 文档](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh)
+   -  Gitee  的教程 [SSH 公钥设置 | Gitee 帮助中心](https://help.gitee.com/base/account/SSH公钥设置)
+
+   ![image-20241106014732223](Git-Gui工具的使用.assets/image-20241106014732223.png)
+
+   ![image-20241106015604615](Git-Gui工具的使用.assets/image-20241106015604615.png)
+
+   ![image-20241106014922341](Git-Gui工具的使用.assets/image-20241106014922341.png)
+
+4. 测试 SSH 连接 (第一次执行 ssh 的命令会有警告信息, 直接输入yes 按回车即可)
+
+```sh
+# Gitee
+ssh -T git@gitee.com
+
+# Github
+ssh -T git@github.com
+```
+
+
+
+![image-20241106010301412](Git-Gui工具的使用.assets/image-20241106010301412.png)
+
+![image-20241106010346362](Git-Gui工具的使用.assets/image-20241106010346362.png)
+
+## git Gui 的基础操作
+
+1. 前提准备配置个人的用户名称和电子邮件地址，克隆/下载远程仓库
+
+   ```shell
+   git config --global user.name "xuexi"
+   git config --global user.email 2161224007@QQ.COM
+   
+   git clone https://gitee.com/sunxuexi/learning.git
+   ```
+
+   ![image-20241106022742828](Git-Gui工具的使用.assets/image-20241106022742828.png)
+
+2. 在有 .git 的目录右击 - Open Git GUI here 打开 Git GUI
+
+   ![image-20241106023017853](Git-Gui工具的使用.assets/image-20241106023017853.png)
+
+   ![image-20241106023147852](Git-Gui工具的使用.assets/image-20241106023147852.png)
+
+3. 提交操作
+
+   1. 点击 下方的重新扫描, 将会在 未缓存的改动 或 缓存的改动 信息显示文件信息
+
+      ![image-20241106023725129](Git-Gui工具的使用.assets/image-20241106023725129.png)
+
+   2. 点击 下方的缓存改动, 然后点确定, 
+
+      ![image-20241106023852511](Git-Gui工具的使用.assets/image-20241106023852511.png) 
+
+   3. 此时 未缓存的改动 将会被清空, 缓存的改动 就是将要提交的内容.填写提价描述, 然后点击提交
+
+      ![image-20241106024414509](Git-Gui工具的使用.assets/image-20241106024414509.png)
+
+   4. 最后点击上传 在弹窗选择分支,  在点击上传
+
+      ![image-20241106024635411](Git-Gui工具的使用.assets/image-20241106024635411.png)
+
+![image-20241106024726984](Git-Gui工具的使用.assets/image-20241106024726984.png)
