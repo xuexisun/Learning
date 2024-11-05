@@ -95,3 +95,14 @@ ssh -T git@github.com
       ![image-20241106024635411](Git-Gui工具的使用.assets/image-20241106024635411.png)
 
 ![image-20241106024726984](Git-Gui工具的使用.assets/image-20241106024726984.png)
+
+   5.  下图就是上传成功, 以及Gitee 的信息
+
+	![image-20241106024905694](Git-Gui工具的使用.assets/image-20241106024905694.png)
+
+![image-20241106025040342](Git-Gui工具的使用.assets/image-20241106025040342.png)
+
+字符乱码问题: 在缓存未提交的窗口上右击选择 编码 - Unicode(UTF 8)
+
+![image-20241106030058367](Git-Gui工具的使用.assets/image-20241106030058367.png)
+
