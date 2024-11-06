@@ -172,8 +172,16 @@ ssh -T git@github.com
       ![image-20241106154340872](Git-Gui工具的使用.assets/image-20241106154340872.png)
 
    4. 可然后修改提交信息点击上传
-   
+
       ![image-20241106154649928](Git-Gui工具的使用.assets/image-20241106154649928.png)
+
+   5. 效果展示
+
+      ![image-20241106154929936](Git-Gui工具的使用.assets/image-20241106154929936.png)
+
+      ![image-20241106154907771](Git-Gui工具的使用.assets/image-20241106154907771.png)
+
+      ![image-20241106154951183](Git-Gui工具的使用.assets/image-20241106154951183.png)
 
 
 
