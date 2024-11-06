@@ -94,17 +94,17 @@ ssh -T git@github.com
 
       ![image-20241106024635411](Git-Gui工具的使用.assets/image-20241106024635411.png)
 
-![image-20241106024726984](Git-Gui工具的使用.assets/image-20241106024726984.png)
+      ![image-20241106024726984](Git-Gui工具的使用.assets/image-20241106024726984.png)
 
    5.  下图就是上传成功, 以及Gitee 的信息
 
-	![image-20241106024905694](Git-Gui工具的使用.assets/image-20241106024905694.png)
+      ![image-20241106024905694](Git-Gui工具的使用.assets/image-20241106024905694.png)
 
-![image-20241106025040342](Git-Gui工具的使用.assets/image-20241106025040342.png)
+      ![image-20241106025040342](Git-Gui工具的使用.assets/image-20241106025040342.png)
 
-字符乱码问题: 在缓存未提交的窗口上右击选择 编码 - Unicode(UTF 8)
+      字符乱码问题: 在缓存未提交的窗口上右击选择 编码 - Unicode(UTF 8)
 
-![image-20241106030058367](Git-Gui工具的使用.assets/image-20241106030058367.png)
+      ![image-20241106030058367](Git-Gui工具的使用.assets/image-20241106030058367.png)
 
 4. 同步远程代码
 
@@ -149,3 +149,14 @@ ssh -T git@github.com
       ![image-20241106150906246](Git-Gui工具的使用.assets/image-20241106150906246.png)
 
       ![image-20241106151048600](Git-Gui工具的使用.assets/image-20241106151048600.png)
+
+5. 冲突处理
+   1. 准备工作: 手动在远程 git 仓库修改文件(README.md), 同时也在本地修改同名文件
+
+      ![image-20241106153106676](Git-Gui工具的使用.assets/image-20241106153106676.png)
+      
+      ![image-20241106153131810](Git-Gui工具的使用.assets/image-20241106153131810.png)
+      
+      
+
+参考来源：http://www.cnblogs.com/iruxu/p/gitgui.html
