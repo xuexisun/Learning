@@ -157,6 +157,26 @@ ssh -T git@github.com
       
       ![image-20241106153131810](Git-Gui工具的使用.assets/image-20241106153131810.png)
       
+      将远程 git 提交并保存, 本地只提交但不要上传
       
+   2. 进行同步远程代码操作后, 会显示合并冲突
+
+      ![image-20241106153927857](Git-Gui工具的使用.assets/image-20241106153927857.png)
+
+   3. 然后在空白位置右击选择要保留的哪个版本( 在此我保留的是本地版本 ), 在对话框点击 是 
+
+      ![image-20241106154233975](Git-Gui工具的使用.assets/image-20241106154233975.png)
+
+      
+
+      ![image-20241106154340872](Git-Gui工具的使用.assets/image-20241106154340872.png)
+
+   4. 可然后修改提交信息点击上传
+   
+      ![image-20241106154649928](Git-Gui工具的使用.assets/image-20241106154649928.png)
+
+
+
+​      
 
 参考来源：http://www.cnblogs.com/iruxu/p/gitgui.html
