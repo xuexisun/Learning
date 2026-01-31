@@ -15,6 +15,13 @@
 /src/main/webapp/userfiles/*
 /target/
 /target
+/incomplete # 未完成
+/Temporary  # 临时
+/TEM
+/tem
+/TMP
+/Tmp
+/tmp
 
 HELP.md
 target/

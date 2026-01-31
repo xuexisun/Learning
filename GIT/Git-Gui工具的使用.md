@@ -187,4 +187,10 @@ ssh -T git@github.com
 
 ​      
 
-参考来源：http://www.cnblogs.com/iruxu/p/gitgui.html
+## 参考连接
+
+[CSDN | Git GUI如何汉化设置成中文？]([Git GUI如何汉化设置成中文？本人实测有效_git gui中文-CSDN博客](https://blog.csdn.net/weixin_45182619/article/details/111826133))
+
+[Git可视化极简易教程](https://www.cnblogs.com/iruxu/p/gitgui.html)](http://www.cnblogs.com/iruxu/p/gitgui.html)
+
+[菜鸟教程 | Git可视化极简易教程](https://www.runoob.com/w3cnote/git-gui-window.html))
